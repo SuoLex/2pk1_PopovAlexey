@@ -27,7 +27,7 @@ namespace pz_8
                 else //если число от 1 до 9, то сумма цифр числа = самому числу
                 {
                     int cell = A[i];
-                    Console.WriteLine($"сумма цифр числа {A[i]}={cell}"); //выводпра
+                    Console.WriteLine($"сумма цифр числа {A[i]}={cell}"); //вывод
                 }
             }
         }
