@@ -53,7 +53,7 @@ namespace простота
         static void Main(string[] args)
         {
             Console.Write("Введите число n:");
-            int n = Convert.ToInt16(Console.ReadLine());
+            int n = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine();
             char[,] massiv = new char[n,n];
             Spagetti( ref massiv, n);
