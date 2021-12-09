@@ -23,6 +23,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pz_18", "pz_18\pz_18.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "прикол", "прикол\прикол.csproj", "{FCC67102-2FF3-41B5-A5E7-29DF73F410D7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "прикол2", "прикол2\прикол2.csproj", "{0E8C448E-2EB8-45FA-B45A-4326E6C0B6A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{FCC67102-2FF3-41B5-A5E7-29DF73F410D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCC67102-2FF3-41B5-A5E7-29DF73F410D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCC67102-2FF3-41B5-A5E7-29DF73F410D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E8C448E-2EB8-45FA-B45A-4326E6C0B6A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E8C448E-2EB8-45FA-B45A-4326E6C0B6A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E8C448E-2EB8-45FA-B45A-4326E6C0B6A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E8C448E-2EB8-45FA-B45A-4326E6C0B6A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
