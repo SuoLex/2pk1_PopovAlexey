@@ -17,9 +17,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pz_17", "pz_17\pz_17.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "простота", "простота\простота.csproj", "{441B9278-F319-401B-97C8-91A8EA432D94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aaa", "aaa\aaa.csproj", "{079DC764-28D8-4C59-A23E-6871ADFE0E5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "aaa", "aaa\aaa.csproj", "{079DC764-28D8-4C59-A23E-6871ADFE0E5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pz_18", "pz_18\pz_18.csproj", "{3B944AEA-C43F-4D83-97E7-64FFA619AB59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pz_18", "pz_18\pz_18.csproj", "{3B944AEA-C43F-4D83-97E7-64FFA619AB59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "прикол", "прикол\прикол.csproj", "{FCC67102-2FF3-41B5-A5E7-29DF73F410D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{3B944AEA-C43F-4D83-97E7-64FFA619AB59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B944AEA-C43F-4D83-97E7-64FFA619AB59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B944AEA-C43F-4D83-97E7-64FFA619AB59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCC67102-2FF3-41B5-A5E7-29DF73F410D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCC67102-2FF3-41B5-A5E7-29DF73F410D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCC67102-2FF3-41B5-A5E7-29DF73F410D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCC67102-2FF3-41B5-A5E7-29DF73F410D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
