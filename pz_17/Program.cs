@@ -28,8 +28,53 @@ namespace pz_17
         }
         static void Main(string[] args)
         {
-            int[] massiv = { 16, 5, 67, 8, 4096,-2 };
+            Console.Write("Введите числа и далее нажмите ENTER:");
+            string a = "1";
+            int aa = 0;
+            int[] massiv = new int[1];
+            int[] massiv2 = new int[1];
 
+
+            for (int o=0;a!="";o++)
+            {
+                
+                a = Console.ReadLine();
+                if (a != "" & aa==0)
+                {
+                    massiv2 = new int[massiv.Length+1];
+                    for (int q = 0; q < massiv.Length; q++)
+                    {
+                        massiv2[q] = massiv[q];
+                    }
+                    
+
+                    massiv=null;
+                    aa=1;
+                    massiv2[o] = Convert.ToInt32(a);
+                }
+                else if (a!="" & aa==1)
+                {
+                    massiv = new int[massiv2.Length + 1]; 
+                    for (int q = 0; q < massiv2.Length; q++)
+                    {
+                        massiv[q] = massiv2[q];
+                    }
+
+
+                    massiv2 = null;
+                    aa = 0;
+                    massiv[o] = Convert.ToInt32(a);
+                }
+            }
+            if(massiv==null)
+            {
+                massiv = new int[massiv2.Length];
+                for (int q = 0; q < massiv2.Length; q++)
+                {
+                    massiv[q] = massiv2[q];
+                }
+            }
+            
             Burger( massiv);
 
 
