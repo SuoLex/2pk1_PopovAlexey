@@ -10,23 +10,45 @@ using System.Threading.Tasks;
 //          поле endTime Время окончания парковки
 //          поле carID Номер авто
 //          метод GetTicketInfo() выводит описание текущего объекта
+//       поле summ2 для подсчета суммы за парковку
 namespace pz_3._2
 {
     public class ParkingTicket
     {
-        public int ID; //сделать приват и прописать свойства
+        private int id = 1;
+        
+        private int ID //сделать приват и прописать свойства
+        {
+            set { if (value == 0)
+                    {
+
+                    Console.WriteLine("\nВведите норм значение в следующий раз");     
+                }
+            else { id = value; }
+
+            
+            
+            }
+            get { return id; }
+            
+        }
         public float summ;
         public DateTime startTime;
-        public DateTime endTime;
+        public DateTime endTime ;
         public string carID;
+        public int summ2;
+        public TimeSpan apsdkalsd; 
+
 
         public ParkingTicket()
-        {
-            ID = 0;
+        {         
+            ID = 0; 
             summ = 0;
             carID = "НЕИЗВЕСТНО";
-            startTime = DateTime.Now;
+            startTime = DateTime.UtcNow;
             endTime = DateTime.Now;
+            apsdkalsd = endTime - startTime;
+            summ2 = 50 * 3;
 
         }
         public ParkingTicket(int ID)
@@ -60,7 +82,7 @@ namespace pz_3._2
         {
             this.ID = ID;
             this.summ = summ;
-            startTime = DateTime.Now;
+            startTime = DateTime.UtcNow;
             endTime = DateTime.Now;
             this.carID = carID;
         }

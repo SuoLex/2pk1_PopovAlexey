@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "прикол", "прико�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "прикол2", "прикол2\прикол2.csproj", "{0E8C448E-2EB8-45FA-B45A-4326E6C0B6A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pz_3_2", "pz_3_2\pz_3_2.csproj", "{11996459-0EBD-4D2C-B940-F42A0B1A63B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pz_3_2", "pz_3_2\pz_3_2.csproj", "{11996459-0EBD-4D2C-B940-F42A0B1A63B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "прикол3", "прикол3\прикол3.csproj", "{7C16BBB0-A1B9-407C-8005-F0FE0E4E67A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{11996459-0EBD-4D2C-B940-F42A0B1A63B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11996459-0EBD-4D2C-B940-F42A0B1A63B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11996459-0EBD-4D2C-B940-F42A0B1A63B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C16BBB0-A1B9-407C-8005-F0FE0E4E67A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C16BBB0-A1B9-407C-8005-F0FE0E4E67A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C16BBB0-A1B9-407C-8005-F0FE0E4E67A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C16BBB0-A1B9-407C-8005-F0FE0E4E67A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
