@@ -32,6 +32,7 @@ namespace pz_3._2
 
                 Console.Write("Номер авто:");
                 string carID = Console.ReadLine();
+
                 if (carID == "") carID = "НЕИЗВЕСТНО";
 
 
