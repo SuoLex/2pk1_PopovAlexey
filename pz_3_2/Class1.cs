@@ -10,7 +10,6 @@ using System.Threading.Tasks;
 //          поле endTime Время окончания парковки
 //          поле carID Номер авто
 //          метод GetTicketInfo() выводит описание текущего объекта
-
 namespace pz_3._2
 {
     public class ParkingTicket
@@ -71,8 +70,8 @@ namespace pz_3._2
 
 
         public ParkingTicket()
-        {
-            ID = 0;
+        {         
+            ID = 0; 
             summ = 0;
             carID = "НЕИЗВЕСТНО";
             startTime = DateTime.UtcNow;
