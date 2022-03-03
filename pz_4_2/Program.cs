@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace pz_3._2
+namespace pz_4._2
 {//          Член класса название особенности
  //          поле ID Уникальный номер талона
  //          поле summ Стоимость парковки
@@ -22,21 +22,13 @@ namespace pz_3._2
                     ID = Convert.ToInt32(Console.ReadLine());
                 }
                 catch { }
-                Console.Write("Стоимость парковки:");
-                float summ = 0;
-                try
-                {
-                    summ = Convert.ToInt32(Console.ReadLine());
-                }
-                catch { }
-
                 Console.Write("Номер авто:");
                 string carID = Console.ReadLine();
 
                 if (carID == "") carID = "НЕИЗВЕСТНО";
 
 
-                Pizza gtt = new Pizza(ID, summ, carID);
+                Pizza gtt = new Pizza(ID, carID);
                 Console.WriteLine("Если хотите продолжить, нажмите ENTER");
                 b = Console.ReadLine();
             }
